@@ -1,0 +1,286 @@
+
+@font-face {
+    font-family: "Roboto";
+    src: url(fonts/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: "RobotoRegular";
+    src: url(fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: "RobotoSlim";
+    src: url(fonts/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: "Abril" ;
+    src: url(fonts/AbrilFatface-Regular.ttf);
+}
+
+/*NAV CONFIGURATION*/
+
+
+.navbar{
+    
+    height: 84px;
+    background: #56CC9D;
+    box-shadow: 0px 3px 6px #00000029;
+}
+.navbar-brand{
+    font-family: "Roboto";
+    font-size: 35px;
+    margin-left: 48px;
+    color: white;
+}
+.container-fluid a{
+    color: white;
+}
+
+.navbar-nav{
+    font-family: "RobotoSlim";
+    margin-right: 48px;
+    font-size: 20px;
+   
+    
+}
+.navbar-nav a{
+    margin: 20px;
+    color: white;
+    
+}
+
+.navbar-nav a:hover{
+    color: white;
+   text-decoration: underline 3px;
+}
+
+
+         /*SLIDE*/
+.slider{
+    background: black;
+    
+
+}
+.carousel-item h5{
+    font-family: "Abril";
+    font-size: 56px;
+    margin-bottom: 340px;
+}
+
+/*CONTAINER-ANIMAIS*/
+.container-Animais-fluid h2{
+    font-family: "Abril";
+    font-size: 56px;
+}
+   
+   
+    /*BUTTONS*/
+.button{
+    margin-top: 144px;
+    margin-left: 527px;
+}
+/*GENERAL BUTTON SETTINGS*/
+.btn-group-lg>.btn, .btn-lg{
+   
+    width: 250px;
+    height: 68px;
+    margin: auto;
+    color: #56CC9D;
+    border: 3px solid #56CC9D;
+    opacity: 1;
+    font-family: "Abril";
+    border-radius: 6px;
+    font-size: 25px;
+    margin-right: 102px;
+    
+    
+}
+
+/*CONTAINER ANIMAIS*/
+.container-img-animais{
+
+    margin-top: 144px;
+     margin-left: 485px;
+     width: 1031px;
+    height: 770px;
+    
+
+}
+/*TEXT SETTINGS ANIMAIS & PICO*/
+.text{
+    display: block;
+    margin-left: 471px;
+    margin-top: -600px;
+    
+}
+.text h2{
+    font-family:"Abril";
+    font-size: 36px;
+    color: #56CC9D;
+}
+.text p{
+    font-family: "RobotoSlim";
+    font-size: 24px;
+    margin-top: 33px;
+    margin-bottom: 72px;
+}
+    
+/*CONTAINER FLORESTA & TEXT*/
+.container-floresta-fluid{
+    background: #FFF3EA;
+    margin-top: 144px;
+   
+    
+   
+    
+
+}
+.Titlediv h2{
+    margin: 100px;
+    font-family: "Abril";
+    font-size: 56px;
+    
+}
+#floresta{
+    
+    margin-top: 76px;
+     margin-left: 390px;
+    
+    
+
+}
+.box-text{
+    width: 500px;
+    height: 250px;
+    margin-top: 85px;
+    margin-left: 375px;
+    display: flex;
+    align-items: flex-end;
+    
+   
+}
+
+
+.box-text h2{
+    font-family:"Abril";
+    font-size: 36px;
+    color: #56CC9D;
+}
+.box-text p{
+    font-family: "RobotoSlim";
+    font-size: 24px;
+    margin-top: 33px;
+    margin-bottom: 72px;
+}
+
+.box-text1{
+    margin-right: 70px;
+}
+.box-text2{
+    margin-left: 70px;
+}
+
+.box-text1 p{
+    width: 500px;
+    height: 97px;
+}
+.box-text2 p{
+    width: 500px;
+    height: 97px;
+}
+
+/*CONTAINER PICO*/
+.container-pico-fluid{
+
+    margin-top: 250px;
+     margin-left: 485px;
+     width: 1065px;
+     height: 1023px;
+     
+}
+.imagen-pico{
+    margin-top: 130px;
+}
+
+
+/*FOOTER SETTINGS*/
+#footer{
+    display: block;
+    height: 350px;
+    background: #3B3B3B;
+}
+.menu{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 182px;
+    margin-bottom: 60px;
+    border-bottom: 1px solid grey;
+    
+    
+}
+.menu h3{
+    font-family: "Roboto";
+    font-size: 45px;
+    color: white;
+    margin-right: 630px;
+    margin-top: 58px;
+    margin-bottom: 53px;
+}
+.menu a{
+   color: white;
+   text-decoration: none;
+   margin-left: 30px;
+   font-family: "RobotoRegular";
+   font-size: 24px;
+   margin-top: 63px;
+}
+
+.menu a:hover{
+    color: white;
+       text-decoration: underline 3px;
+   
+}
+.icono{
+    width: 32px;
+    height: 32px;
+    margin-top: 63px;
+    margin-left: 29px;
+}
+.contato{
+    margin-left: 182px;
+    color: white;
+    
+}
+.contato h4{
+    font-family: "Roboto";
+    font-size: 18px;
+    height: 22px;
+}
+.contato p{
+    font-family: "RobotoRegular";
+    font-size: 32px;
+    height: 58px;
+    margin-top: 27px;
+}
+.copy{
+    display: flex;
+    background: #292929;
+    
+    height: 49px;
+    
+
+}
+.icon{
+    width: 25px ;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 180px;
+}
+.copy p{
+    margin-left: 8px;
+    margin-top: 16px;
+    font-family: "RobotoRegular";
+    font-size: 12px;
+    color: white;
+    
+    
+}
